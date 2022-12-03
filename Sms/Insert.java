@@ -15,7 +15,7 @@ public class Insert {
 	    int e_id,eage,esalary;
 	    String ename,ecity;
 	    //saving employee details in database
-	    public void saveMenyDriven() throws SQLException{
+	    public void saveMenuDriven() throws SQLException{
 	    	System.out.println("enter Employee id: ");
 	    	e_id=sc.nextInt();
 	    	System.out.println("enter Employee name: ");

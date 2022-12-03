@@ -10,7 +10,7 @@ import Com.Sms.Helper;
 
 public class Fetch {
 	//fetching employee details in the database(display)
-    public void fetchMenyDriven() throws SQLException{
+    public void fetchMenuDriven() throws SQLException{
     	Connection conn=Helper.con();
     	Statement stmt=conn.createStatement();
     	ResultSet rs=stmt.executeQuery("select * from MenuDriven");

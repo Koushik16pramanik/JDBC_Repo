@@ -12,7 +12,7 @@ import Com.Sms.Helper;
 public class Delete {
 	Scanner sc = new Scanner(System.in);
 	//updating employee details in database
-    public void updateMenyDriven()throws SQLException{
+    public void updateMenuDriven()throws SQLException{
     	Connection conn=Helper.con();
 		Statement stmt=conn.createStatement(); 
 		System.out.println("enter employee city : ");
@@ -26,7 +26,7 @@ public class Delete {
 		}	
     }
 	//deleting employee details in database
-	public void deleteMenyDriven() throws SQLException{
+	public void deleteMenuDriven() throws SQLException{
 		Connection conn = Helper.con();
 		Statement stmt = conn.createStatement();
 		System.out.println("Enter employee id : ");
